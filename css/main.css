@@ -1,0 +1,163 @@
+/**** BASE STYLES ****/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #095256;
+}
+
+#work {
+  height: 1400px;
+}
+
+#about {
+  height: 650px;
+  color: #ffffff;
+  background-color: #9ebcb7;
+  padding: 10px;
+}
+
+#contact {
+  margin-top: -45px;
+  height: 400px;
+  color: #ffffff;
+  background-color: #6f8380;
+  clear: both;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 800px;
+  background-image: url("../img/hero-image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+header p {
+  font-size: 42px;
+  line-height: 50px;
+}
+
+.header {
+  width: 800px;
+  padding-top: 250px;
+  text-align: center;
+}
+
+/***** WORK SECTION *****/
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+#work img {
+    border: 5px solid #9ebcb7;
+    box-sizing: content-box;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    float: left;
+}
+
+#work h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#work p {
+    line-height: 25px;
+    padding: 0 50px;
+}
+
+.workcase-subheading {
+  margin-top: 0px;
+}
+
+.website-1 {
+  height: 365px;
+  vertical-align: text-top;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.website-2, .website-3 {
+  height: 400px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  clear: both;
+}
+
+.portfolio a {
+  color: #9ebcb7;
+}
+
+/***** ABOUT SECTION *****/
+
+#about h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+
+}
+#about img {
+  margin-right: 30px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+  float: left;
+}
+
+.about-text {
+  vertical-align: text-top;
+}
+
+/***** FOOTER *****/
+
+#contact a {
+    text-decoration: none;
+    color: #9ebcb7;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+.centered-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.link-socials {
+  margin-top: -10px;
+}
+
+.copyright {
+  padding-top: 80px;
+  font-size: 14px;
+  text-align: center;
+  clear: both;
+}
